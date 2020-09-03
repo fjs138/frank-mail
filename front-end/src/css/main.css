@@ -1,0 +1,64 @@
+/* container for entire UI */
+.appContainer {
+    display : grid;
+    grid-template-columns : 150px 1fr 240px;
+    grid-template-rows : 50px 1fr;
+    width : 100vw;
+    height : 100vh;
+}
+
+/* toolbar at the top */
+.toolbar {
+    grid-column : 1 / 4;
+    grid-row : 1 / 1;
+    border-bottom : 1px solid #e0e0e0;
+    padding-top : 8px;
+    padding-left : 4px;
+}
+
+/* list of mailboxes on left side */
+.mailboxList {
+    grid-column : 1 / 1;
+    grid-row : 2 / 2;
+    border-right : 1px solid #e0e0e0;
+    padding-top : 6px;
+    padding-left : 4px;
+    overflow : auto;
+}
+
+/* the center area (message list, message, contact views) */
+.centerArea {
+    display : grid;
+    grid-template-rows : 200px 1fr;
+}
+
+/* message list at the top of the center area */
+.messageList {
+    border-bottom : 1px solid #e0e0e0;
+    grid-row : 1 / 1;
+    overflow : auto;
+}
+
+/* container for message and contact views below the .messageList */
+.centerViews {
+    grid-row : 2 / 2;
+    padding-top : 4px;
+    padding-left : 4px;
+    padding-right : 4px;
+    overflow : auto;
+}
+
+/* contact list on the right */
+.contactList {
+    grid-column : 3 / 3;
+    grid-row : 2 / 2;
+    border-left : 1px solid #e0e0e0;
+    padding-top : 4px;
+    padding-left : 4px;
+    overflow : auto;
+}
+
+/* style to override default gray disabled color of the message ID and date fields in the message view. */
+.messageInfoField {
+    color : #000000!important;
+}
