@@ -1,11 +1,11 @@
 {
   "smtp" : {
     "host" : "mail.builtbyfrank.com", "port" : 587,
-    "auth" : { "user" :  "test123@builtbyfrank.com", "pass" :  "_&?YYUiZ?.#r"}
+    "auth" : { "user" :  "test123@builtbyfrank.com", "pass" :  "************"}
   },
   "imap" : {
     "host" : "mail.builtbyfrank.com", "port" : 143,
-    "auth" : { "user" :  "test123@builtbyfrank.com", "pass" : "_&?YYUiZ?.#r"}
+    "auth" : { "user" :  "test123@builtbyfrank.com", "pass" : "************"}
   }
 }
 
