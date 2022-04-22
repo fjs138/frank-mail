@@ -1,5 +1,5 @@
 ## Frank Mail
-
+full stack web mail
 
 ## The Goal
 Create a mail platform that does not collect user data, 
@@ -35,7 +35,7 @@ client-side environment across browsers as far as styles go
 
 * a back-end server, that communicates with an email server 
 
-* a front-end client, which will communicate with the back-end server
+* a front-end mail client, which will communicate with the back-end server
 * the back-end server will communicate with an email server whose details will be stored in a text file on the back-end server (so this is a single-user system), 
 * support for the IMAP protocol for retrieving mail
 * support for the SMTP protocol for sending messages
@@ -46,7 +46,7 @@ client-side environment across browsers as far as styles go
     * allow the user to delete and send messages.
     * storage of contacts, and the associated add and delete functions for maintaining them
 
-- The client will provide:
+- The mail client will provide:
     - a web-based application that can be viewed in any web browser.
     - the user a list of mailboxes in their account
     - the ability to see a list of messages within a selected mailbox
@@ -61,7 +61,7 @@ client-side environment across browsers as far as styles go
         - delete contacts
         - compose an email to the contact
     
-## Client Requirements:
+## Mail Client Requirements:
 • The server must be consulted for a list of mailboxes under a single configured IMAP account once at startup.
 • The user can select a mailbox from the list, which will double as a refresh action. The messages will be displayed in a tabular form and will show the date received, subject, and sender.
 • Clicking a message shows it below the list, including subject, sender, ID on the server, date received, and, of course, the message itself, as plain text.
