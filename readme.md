@@ -1,12 +1,12 @@
 ## Frank Mail
-full stack web mail
+full stack webmail
 
 ## The Goal
 Create a mail platform that does not collect user data, 
 use advertising, and is devoid of any connections to
 corporate or political entities. Honest mail. Frank Mail.
 
-## Technology Stack:
+## Technology Stack
 
 | Technology    	| Use           	  | Description     	|
 | :------------------|:-------------------| :----------------	|
@@ -61,7 +61,7 @@ client-side environment across browsers as far as styles go
         - delete contacts
         - compose an email to the contact
     
-## Mail Client Requirements:
+## Mail Client Requirements
 • The server must be consulted for a list of mailboxes under a single configured IMAP account once at startup.
 • The user can select a mailbox from the list, which will double as a refresh action. The messages will be displayed in a tabular form and will show the date received, subject, and sender.
 • Clicking a message shows it below the list, including subject, sender, ID on the server, date received, and, of course, the message itself, as plain text.
