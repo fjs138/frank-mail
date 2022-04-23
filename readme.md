@@ -19,7 +19,7 @@ corporate or political entities. Honest mail. Frank Mail.
 |nodemailer|email sender|Easy as cake e-mail sending from your Node.js applications|
 | TypeScript			| css			  |	Create fast loading, highly readable, and 100% responsive interfaces with as little css as possible.          |
 | Express			| data storage			  |	Fast, unopinionated, minimalist web framework for node.|
-|Axios|http client|A library for server communications (more on this later); Axios is a Promise-based HTTP client that works in both browsers and Node.|
+|Axios|http client|A library for server communications; Axios is a Promise-based HTTP client that works in both browsers and Node.|
 |Material-UI|UI Framework|A library providing UI widgets to build our UI with based on Google’s Material guidelines|
 |Bit|components|Build, distribute and collaborate on components.|
 
