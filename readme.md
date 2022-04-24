@@ -61,7 +61,7 @@ client-side environment across browsers as far as styles go
         - delete contacts
         - compose an email to the contact
     
-## Mail Client Requirements
+### Mail Client Requirements
 • The server must be consulted for a list of mailboxes under a single configured IMAP account once at startup.
 
 • The user can select a mailbox from the list, which will double as a refresh action. The messages will be displayed in a tabular form and will show the date received, subject, and sender.
