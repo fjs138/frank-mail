@@ -1,5 +1,5 @@
 ## Frank Mail
-full stack webmail
+Mail server and client, built with TypeScript, React, Express
 
 ## The Goal
 Create a mail platform that does not collect user data, 
