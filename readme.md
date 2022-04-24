@@ -63,11 +63,17 @@ client-side environment across browsers as far as styles go
     
 ## Mail Client Requirements
 • The server must be consulted for a list of mailboxes under a single configured IMAP account once at startup.
+
 • The user can select a mailbox from the list, which will double as a refresh action. The messages will be displayed in a tabular form and will show the date received, subject, and sender.
+
 • Clicking a message shows it below the list, including subject, sender, ID on the server, date received, and, of course, the message itself, as plain text.
+
 • The user must be able to delete the message being viewed.
+
 • The user can begin a new message in reply to the message being viewed. The subject will automatically have “Re:” prepended to it, and the original message will be shown below a bit of marker text.
+
 • A list of contacts will be stored on the server. The user can select a contact from a list and can delete the contact or begin a message to them. They can also, of course, add a new contact.
+
 • Like mailboxes, the server will be consulted once at startup for the list of contacts.
 
 
