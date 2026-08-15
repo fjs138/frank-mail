@@ -10,7 +10,7 @@
     "build": "webpack"
   },
   "author": "Frank Santaguida",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/express": "^4.17.7",
     "emailjs-imap-client": "^3.1.0",
